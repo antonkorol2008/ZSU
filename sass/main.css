@@ -1,4 +1,82 @@
+.container {
+  margin: 0 auto;
+  outline: 2px solid gray;
+  width: 1000px;
+}
+
+.header {
+  background-color: #010632;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  gap: 61px;
+  align-items: center;
+  margin: 0;
+}
+
+.stand {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.stand1 {
+  color: #0075FF;
+  font-weight: 700;
+}
+
+.stand2 {
+  color: #FFB800;
+  font-weight: 700;
+}
+
 .section-bandera {
   background: url("../../images/bg-bandera@1x.jpg");
   height: 715px;
+}
+
+.title-bandera1 {
+  color: #0075FF;
+}
+
+.title-bandera2 {
+  color: #FFC700;
+}
+
+.title-bandera {
+  font-size: 96px;
+  font-weight: 900;
+  font-family: "Jost", sans-serif;
+}
+
+.section-bandera {
+  text-align: center;
+  padding-top: 116px;
+}
+
+.section-money {
+  background-color: #010632;
+}
+
+.title-money {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.diskripteon-money {
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
