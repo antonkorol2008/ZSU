@@ -1,5 +1,6 @@
-.section-money {
+.section-money{
     background-color: #010632;
+    display: flex;
 }
 .title-money {
     font-size: 48px;
@@ -10,4 +11,19 @@
     font-size: 24px;
 font-weight: 400;
 color: #FFFFFF;
+}
+.wraper-money{
+    width: 365px;
+    outline: 1px solid red;
+}
+.wraper-zsu{
+    width: 465px;
+    outline: 1px solid red;
+    
+}
+.zsu1{
+    width: 265px;
+}
+.zsu2{
+    width: 165px;
 }
