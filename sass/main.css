@@ -111,10 +111,14 @@
 
 .section-about-us {
   background-color: #060D49;
+  padding-top: 29px;
+  padding-bottom: 63px;
 }
 
 .wraper-zsu3 {
   outline: 1px solid red;
+  display: flex;
+  gap: 35px;
 }
 
 .about-us-container {
@@ -128,4 +132,40 @@
 
 .wraper-zsu4 {
   outline: 1px solid red;
+}
+
+.zsu3 {
+  width: 365px;
+  display: block;
+}
+
+.title-about-us {
+  color: #fff;
+  font-size: 30px;
+}
+
+.zsu3 {
+  width: 265px;
+  height: 161px;
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zsu4 {
+  margin-top: 161px;
+}
+
+.diskripteon-about {
+  color: #fff;
+}
+
+.section-help {
+  background-color: #010632;
+}
+
+.help-ukraine {
+  color: white;
 }/*# sourceMappingURL=main.css.map */
