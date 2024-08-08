@@ -1,13 +1,14 @@
 .container {
     margin: 0 auto;
-    outline: 2px solid gray ;
+    outline: 2px solid gray;
     width: 1000px;
 }
-.header{
+
+.header {
     background-color: #010632;
-    
 }
-.header-link{
+
+.header-link {
     color: white;
     text-decoration: none;
     font-size: 24px;
@@ -15,26 +16,26 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  
-
-
 }
+
 .header-list {
     list-style: none;
     display: flex;
     gap: 61px;
     align-items: center;
     margin: 0;
-    
 }
+
 .stand {
     font-size: 40px;
     font-weight: 700;
 }
-.stand1{
-    color:#0075FF;
+
+.stand1 {
+    color: #0075FF;
     font-weight: 700;
 }
+
 .stand2 {
     color: #FFB800;
     font-weight: 700;

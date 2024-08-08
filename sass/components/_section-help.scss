@@ -1,37 +1,44 @@
-.section-money{
+.section-money {
     background-color: #010632;
     display: flex;
-    padding-top:47px ;
+    padding-top: 47px;
     padding-bottom: 58px;
 }
+
 .title-money {
     font-size: 38px;
     font-weight: 700;
     color: #FFFFFF;
     margin-top: 0px;
 }
+
 .diskripteon-money {
     font-size: 15px;
-font-weight: 400;
-color: #FFFFFF;
+    font-weight: 400;
+    color: #FFFFFF;
 }
-.wraper-money{
+
+.wraper-money {
     width: 365px;
     outline: 1px solid red;
 }
-.wraper-zsu{
+
+.wraper-zsu {
     width: 465px;
     outline: 1px solid red;
-    
+
 }
-.zsu1{
+
+.zsu1 {
     width: 265px;
     margin-right: 25px;
 }
-.zsu2{
+
+.zsu2 {
     width: 165px;
 }
-.money-container{
+
+.money-container {
     display: flex;
     justify-content: space-between;
 
