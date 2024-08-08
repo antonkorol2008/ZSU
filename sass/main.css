@@ -170,4 +170,50 @@
 .help-ukraine {
   color: white;
   text-align: center;
+}
+
+.ukraine5 {
+  width: 264px;
+}
+
+.ukraine4 {
+  width: 230px;
+  display: block;
+}
+
+.ukraine3 {
+  width: 364px;
+}
+
+.ukraine2 {
+  width: 364px;
+}
+
+.ukraine1 {
+  width: 364px;
+}
+
+.ukraine6 {
+  width: 465px;
+}
+
+.container-blok1 {
+  display: flex;
+  outline: 1px solid red;
+  width: 770px;
+}
+
+.mini-blok {
+  outline: 1px solid red;
+}
+
+.mini-block2 {
+  display: flex;
+  outline: 1px solid red;
+  width: 770px;
+  gap: 36px;
+}
+
+.big-block {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
