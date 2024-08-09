@@ -187,6 +187,7 @@
 
 .ukraine2 {
   width: 364px;
+  margin-bottom: 20px;
 }
 
 .ukraine1 {
@@ -201,10 +202,13 @@
   display: flex;
   outline: 1px solid red;
   width: 770px;
+  margin-bottom: 20px;
 }
 
 .mini-blok {
   outline: 1px solid red;
+  gap: 21px;
+  margin-bottom: 20px;
 }
 
 .mini-block2 {
@@ -216,4 +220,38 @@
 
 .big-block {
   display: flex;
+}
+
+.section-projekt {
+  background-color: #060D49;
+}
+
+.projekt-item {
+  outline: 1px solid red;
+  width: 310px;
+}
+
+.projekt-list {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  padding-left: 0;
+}
+
+.projekt-item {
+  background-color: white;
+}
+
+.projekt-img {
+  width: 311px;
+}
+
+.projekt-title {
+  font-size: 33px;
+  text-align: center;
+}
+
+.projekt-diskripteon {
+  font-size: 20px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
