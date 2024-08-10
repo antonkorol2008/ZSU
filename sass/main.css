@@ -229,6 +229,8 @@
 .projekt-item {
   outline: 1px solid red;
   width: 310px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .projekt-list {
@@ -243,15 +245,61 @@
 }
 
 .projekt-img {
-  width: 311px;
+  width: 250px;
+  text-align: center;
+  display: block;
+  margin-left: 35px;
 }
 
 .projekt-title {
   font-size: 33px;
   text-align: center;
+  margin-top: -1px;
 }
 
 .projekt-diskripteon {
   font-size: 20px;
   text-align: center;
+  margin-top: -17px;
+}
+
+.title-zsu {
+  font-size: 33px;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.projekt-btn {
+  background-color: #0057FF;
+  color: white;
+  border: none;
+  padding: 13px 58px;
+  border-radius: 15px;
+  margin-bottom: 19px;
+}
+
+.line1 {
+  width: 158px;
+  height: 3px;
+  background-color: #B9B9B9;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.line2 {
+  width: 60px;
+  height: 3px;
+  background-color: #FFD600;
+  border-radius: 3px;
+}
+
+footer {
+  background-color: #010632;
+}
+
+.title-footer {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
