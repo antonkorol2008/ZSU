@@ -109,6 +109,10 @@
   justify-content: space-between;
 }
 
+.section-help {
+  margin-top: -30px;
+}
+
 .section-about-us {
   background-color: #060D49;
   padding-top: 29px;
@@ -242,6 +246,7 @@
 
 .projekt-item {
   background-color: white;
+  margin-bottom: 100px;
 }
 
 .projekt-img {
@@ -296,10 +301,61 @@
 
 footer {
   background-color: #010632;
+  margin-top: -20px;
 }
 
 .title-footer {
   text-align: center;
   display: block;
   margin: 0 auto;
+}
+
+.document-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-document-list {
+  width: 481px;
+  outline: 1px solid red;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-title {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.social-item {
+  width: 65px;
+  height: 65px;
+  display: block;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  padding-left: 0;
+}
+
+.social-wraper {
+  outline: 1px solid red;
+  width: 265px;
+}
+
+.data {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.footer-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document-item {
+  margin: 10px;
 }/*# sourceMappingURL=main.css.map */
