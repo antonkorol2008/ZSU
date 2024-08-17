@@ -60,6 +60,21 @@
   font-family: "Jost", sans-serif;
 }
 
+.focus-in-contract {
+  animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 .section-bandera {
   text-align: center;
   padding-top: 116px;
@@ -176,6 +191,22 @@
   text-align: center;
 }
 
+.text-pop-up-top {
+  animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes text-pop-up-top {
+  0% {
+    transform: translateY(0);
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    transform: translateY(-50px);
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
 .ukraine5 {
   width: 264px;
 }
@@ -228,6 +259,8 @@
 
 .section-projekt {
   background-color: #060D49;
+  margin-top: -10px;
+  padding-top: 50px;
 }
 
 .projekt-item {
@@ -249,6 +282,20 @@
   margin-bottom: 100px;
 }
 
+.shadow-pop-tr {
+  animation: shadow-pop-tr 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    transform: translateX(-8px) translateY(8px);
+  }
+}
 .projekt-img {
   width: 250px;
   text-align: center;
@@ -275,6 +322,20 @@
   margin-top: 10px;
 }
 
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 .projekt-btn {
   background-color: #0057FF;
   color: white;
@@ -284,6 +345,21 @@
   margin-bottom: 19px;
 }
 
+.flip-scale-up-hor:hover {
+  animation: flip-scale-up-hor 0.5s linear both;
+}
+
+@keyframes flip-scale-up-hor {
+  0% {
+    transform: scale(1) rotateX(0);
+  }
+  50% {
+    transform: scale(1.5) rotateX(-90deg);
+  }
+  100% {
+    transform: scale(1) rotateX(-180deg);
+  }
+}
 .line1 {
   width: 158px;
   height: 3px;
