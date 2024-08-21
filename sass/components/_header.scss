@@ -3,7 +3,17 @@
     outline: 2px solid gray;
     width: 1000px;
 }
-
+@media (min-width:768px ) and (max-width:1024px){
+    .container {
+        margin: 0 auto;
+        outline: 2px solid red;
+        width: 700px;
+    }
+    .none {
+        display: none;
+    }
+    
+}
 .header {
     background-color: #010632;
 }
