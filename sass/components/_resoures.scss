@@ -111,3 +111,9 @@ background-color: #FFD600;
 border-radius: 3px;
 
 }
+@media (min-width:768px ) and (max-width:1024px) {
+  .projekt-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

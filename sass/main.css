@@ -1,3 +1,7 @@
+img {
+  display: block;
+}
+
 .container {
   margin: 0 auto;
   outline: 2px solid gray;
@@ -12,6 +16,10 @@
   }
   .none {
     display: none;
+  }
+  .stand {
+    text-align: center;
+    margin-left: 200px;
   }
 }
 .header {
@@ -90,6 +98,11 @@
   padding-top: 116px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title-bandera {
+    font-size: 70px;
+  }
+}
 .section-money {
   background-color: #010632;
   display: flex;
@@ -138,6 +151,19 @@
   margin-top: -30px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wraper-zsu3 {
+    background-color: red;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .zsu4 {
+    margin-top: 10px !important;
+  }
+  .help-ukraine {
+    font-size: 22px;
+  }
+}
 .section-about-us {
   background-color: #060D49;
   padding-top: 29px;
@@ -385,6 +411,12 @@
   border-radius: 3px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projekt-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 footer {
   background-color: #010632;
   margin-top: -20px;

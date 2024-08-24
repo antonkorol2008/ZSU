@@ -46,3 +46,17 @@
 .section-help {
     margin-top: -30px
 }
+@media (min-width:768px ) and (max-width:1024px) {
+    .wraper-zsu3 {
+        background-color: red;
+        // display: block !important;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .zsu4 {
+        margin-top: 10px !important;
+    }
+    .help-ukraine {
+        font-size: 22px;
+    }
+}
