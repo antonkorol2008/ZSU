@@ -57,3 +57,20 @@ img {
     color: #FFB800;
     font-weight: 700;
 }
+@media (min-width:100px ) and (max-width:420px) {
+    .container {
+        margin: 0 auto;
+        outline: 2px solid greenyellow;
+        width: 420px;
+    }
+    .none {
+        display: none;
+    }
+    .stand {
+        text-align: center;
+        margin-left: 40px ;
+
+    }
+}
+
+ 

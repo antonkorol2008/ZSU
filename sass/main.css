@@ -59,6 +59,20 @@ img {
   font-weight: 700;
 }
 
+@media (min-width: 100px) and (max-width: 420px) {
+  .container {
+    margin: 0 auto;
+    outline: 2px solid greenyellow;
+    width: 420px;
+  }
+  .none {
+    display: none;
+  }
+  .stand {
+    text-align: center;
+    margin-left: 40px;
+  }
+}
 .section-bandera {
   background: url("../../images/bg-bandera@1x.jpg");
   height: 715px;
@@ -101,6 +115,14 @@ img {
 @media (min-width: 768px) and (max-width: 1024px) {
   .title-bandera {
     font-size: 70px;
+  }
+}
+@media (min-width: 100px) and (max-width: 420px) {
+  .title-bandera {
+    font-size: 40px;
+  }
+  .section-bandera {
+    height: 400px;
   }
 }
 .section-money {
@@ -162,6 +184,27 @@ img {
   }
   .help-ukraine {
     font-size: 22px;
+  }
+}
+@media (min-width: 100px) and (max-width: 420px) {
+  .title-money {
+    font-size: 30px;
+    text-align: center;
+  }
+  .money-container {
+    display: block;
+  }
+  .wraper-money {
+    margin: 0 auto;
+  }
+  .wraper-zsu {
+    width: 365px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 }
 .section-about-us {
