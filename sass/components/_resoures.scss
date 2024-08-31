@@ -117,3 +117,12 @@ border-radius: 3px;
     justify-content: center;
   }
 }
+@media (min-width: 100px) and (max-width: 420px) {
+.projekt-list {
+  list-style: none;
+  display: flex;
+  gap: 0px;
+  padding-left: 58px;
+  flex-direction: column;
+ }
+}

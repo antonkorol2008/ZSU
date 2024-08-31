@@ -43,12 +43,16 @@
     font-size: 70px;
 
   }
+  .section-bandera {
+    height: 500px;
+  }
 }
 @media (min-width:100px ) and (max-width:420px) {
   .title-bandera {
     font-size: 40px;
 
   }
+
   .section-bandera {
     height:400px ;
   }

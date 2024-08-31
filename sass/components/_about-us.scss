@@ -50,4 +50,16 @@
 .diskripteon-about {
     color: #fff;
 }
- 
+@media (min-width:100px ) and (max-width:420px) {
+    .wraper-zsu3 {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .zsu4 {
+        margin-top: 100px;
+    }
+    .about-us-container {
+        display: block;
+        text-align: center;
+    }
+}

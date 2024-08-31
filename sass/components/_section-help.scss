@@ -1,77 +1,77 @@
 .section-money {
-    background-color: #010632;
-    display: flex;
-    padding-top: 47px;
-    padding-bottom: 58px;
+  background-color: #010632;
+  display: flex;
+  padding-top: 47px;
+  padding-bottom: 58px;
 }
 
 .title-money {
-    font-size: 38px;
-    font-weight: 700;
-    color: #FFFFFF;
-    margin-top: 0px;
+  font-size: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0px;
 }
 
 .diskripteon-money {
-    font-size: 15px;
-    font-weight: 400;
-    color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .wraper-money {
-    width: 365px;
-    outline: 1px solid red;
+  width: 365px;
+  outline: 1px solid red;
 }
 
 .wraper-zsu {
-    width: 465px;
-    outline: 1px solid red;
-
+  width: 465px;
+  outline: 1px solid red;
 }
 
 .zsu1 {
-    width: 265px;
-    margin-right: 25px;
+  width: 265px;
+  margin-right: 25px;
 }
 
 .zsu2 {
-    width: 165px;
+  width: 165px;
 }
 
 .money-container {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 .section-help {
-    margin-top: -30px
+  margin-top: -30px;
 }
-@media (min-width:768px ) and (max-width:1024px) {
-    .wraper-zsu3 {
-        background-color: red;
-        // display: block !important;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .zsu4 {
-        margin-top: 10px !important;
-    }
-    .help-ukraine {
-        font-size: 22px;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wraper-zsu3 {
+    background-color: red;
+    // display: block !important;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .zsu4 {
+    margin-top: 10px !important;
+  }
+  .help-ukraine {
+    font-size: 22px;
+  }
 }
-@media (min-width:100px ) and (max-width:420px) {
-    .title-money {
-        font-size: 30px;
-        text-align: center;
-    }
-    .money-container {
-        display: block;
-    }
-.wraper-money {
+
+@media (min-width: 100px) and (max-width: 420px) {
+  .title-money {
+    font-size: 30px;
+    text-align: center;
+
+  }
+  .money-container {
+    display: block;
+  }
+  .wraper-money {
     margin: 0 auto;
-}
-.wraper-zsu {
+  }
+  .wraper-zsu {
     width: 365px;
     margin: 0 auto;
     text-align: center;
@@ -79,5 +79,11 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-}
+  }
+  .wraper-zsu3 {
+    background-color: red;
+    // display: block !important;
+    flex-direction: column;
+    gap: 5px;
+  }
 }

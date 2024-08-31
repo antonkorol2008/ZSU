@@ -19,7 +19,7 @@ img {
   }
   .stand {
     text-align: center;
-    margin-left: 200px;
+    margin-left: 150px;
   }
 }
 .header {
@@ -116,6 +116,9 @@ img {
   .title-bandera {
     font-size: 70px;
   }
+  .section-bandera {
+    height: 500px;
+  }
 }
 @media (min-width: 100px) and (max-width: 420px) {
   .title-bandera {
@@ -135,14 +138,14 @@ img {
 .title-money {
   font-size: 38px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 0px;
 }
 
 .diskripteon-money {
   font-size: 15px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .wraper-money {
@@ -206,6 +209,11 @@ img {
     align-items: center;
     gap: 30px;
   }
+  .wraper-zsu3 {
+    background-color: red;
+    flex-direction: column;
+    gap: 5px;
+  }
 }
 .section-about-us {
   background-color: #060D49;
@@ -260,6 +268,19 @@ img {
   color: #fff;
 }
 
+@media (min-width: 100px) and (max-width: 420px) {
+  .wraper-zsu3 {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .zsu4 {
+    margin-top: 100px;
+  }
+  .about-us-container {
+    display: block;
+    text-align: center;
+  }
+}
 .section-help {
   background-color: #010632;
   text-align: center;
@@ -458,6 +479,15 @@ img {
   .projekt-list {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media (min-width: 100px) and (max-width: 420px) {
+  .projekt-list {
+    list-style: none;
+    display: flex;
+    gap: 0px;
+    padding-left: 58px;
+    flex-direction: column;
   }
 }
 footer {
